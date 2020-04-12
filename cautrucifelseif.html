@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cau truc if-else-if</title>
+</head>
+<body>
+<script>
+    let useName = prompt("Ten dang nhap");
+    let pass = prompt("Nhap password");
+    if (useName == "Admin") {
+        if (pass == "TheMaster") {
+            alert('Welcome!');
+        } else if (pass == "null") {
+            alert('Canceled!');
+        } else {
+            alert("Wrong password");
+        }
+    } else if(useName == "null") {
+            alert('Canceled');
+        } else {
+            alert("I don't know you");
+        }
+</script>
+</body>
+</html>
